@@ -3,6 +3,12 @@ courser
 
 Courser is a route manager for express web framework, provides an easy way to manage routes.
 
+Installation
+---
+
+Using NPM to install Courser module directly:
+
+    npm install courser
 
 
 Example
