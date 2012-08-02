@@ -1,4 +1,4 @@
 courser
 =======
 
-Route manager for express web framework
+Courser is a route manager for express web framework.

@@ -1,0 +1,27 @@
+{
+    "name": "courser",
+    "version": "0.0.1",
+    "description": "Route manager for express web framework",
+    "keywords": [
+        "web",
+        "route"
+    ],
+    "homepage": "https://github.com/cfsghost/courser",
+    "author": {
+        "name": "Fred Chien(錢逢祥)",
+        "email": "fred@mandice.com",
+        "web": "http://www.mandice.com/"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:cfsghost/courser.git"
+    },
+    "engines": {
+        "node": ">= 0.6.0"
+    },
+    "dependencies": {
+        "express" : "2.5.9"
+    },
+    "main": "./lib/courser.js"
+}
