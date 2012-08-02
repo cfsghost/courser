@@ -1,10 +1,10 @@
 courser
-=======
+=
 
 Courser is a route manager for express web framework, provides an easy way to manage routes.
 
 Installation
----
+-
 
 Using NPM to install Courser module directly:
 
@@ -12,7 +12,7 @@ Using NPM to install Courser module directly:
 
 
 Example
----
+-
 
 A small example of managing routes for express:
 
@@ -65,4 +65,55 @@ A small example of managing routes for express:
     
 
 All of JavaScript files(*.js) in specific path will be loaded by Courser. Developer can add more APIs or pages to existing files or new file. 
+
+Example of Using Middleware:
+-
+
+    module.exports = {
+        '/middleware': [
+    		DoSomethingBeforeHandler,
+    		middleware
+    	]
+    };
     
+    function DoSomethingBeforeHandler(req, res, next) {
+    
+    	console.log('Do Something');
+    
+    	next();
+    };
+    
+    function middleware(req, res) {
+    
+    	res.render('index', { title: 'Courser Example' });
+    };
+
+Example of Specifying HTTP Method:
+-
+
+    module.exports = {
+        '/method': {
+    		get: get,
+    		post: post
+    	}
+    };
+    
+    function get(req, res) {
+    
+    	res.end('GET Method');
+    };
+    
+    function post(req, res) {
+    
+    	res.end('POST Method');
+    };
+
+License
+-
+
+Licensed under the MIT License
+
+Authors
+-
+
+Copyright&copy; 2012 Fred Chien <<fred@mandice.com>>
