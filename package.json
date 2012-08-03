@@ -21,7 +21,7 @@
         "node": ">= 0.6.0"
     },
     "dependencies": {
-        "express" : "2.5.9"
+        "express" : ">= 2.5.9"
     },
     "main": "./lib/courser.js"
 }
