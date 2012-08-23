@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/cfsghost/courser.png)](http://travis-ci.org/cfsghost/courser)
 courser
 =
 
