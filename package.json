@@ -1,6 +1,6 @@
 {
     "name": "courser",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "description": "Route manager for express web framework",
     "keywords": [
         "web",
